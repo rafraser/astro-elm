@@ -1,0 +1,21 @@
+---
+import Clock from '../components/Clock.elm?import';
+import Counter from '../components/Counter.elm?import';
+import CounterFlags from '../components/CounterFlags.elm?import';
+---
+
+<html>
+    <head>
+        <title>Elm Test Entrypoint</title>
+    </head>
+    <body>
+        <h1>Test</h1>
+        <Counter client:load />
+        <CounterFlags client:load count={100} />
+        <CounterFlags client:load count={50} />
+
+        <h2>Clocks!</h2>
+        <Clock client:load />
+        <Clock client:load />
+    </body>
+</html>

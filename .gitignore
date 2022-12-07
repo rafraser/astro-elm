@@ -1,0 +1,7 @@
+node_modules/
+elm-stuff/
+dist/
+
+# Since this is just a tiny library, I don't think it's worth keeping these around
+# sue me
+package-lock.json

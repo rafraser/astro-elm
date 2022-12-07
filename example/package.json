@@ -1,0 +1,14 @@
+{
+    "name": "test-elm-entry",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "astro": "^1.6.13",
+        "astro-elm": "../package"
+    },
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
+    }
+}

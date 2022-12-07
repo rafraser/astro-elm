@@ -1,0 +1,16 @@
+{
+  "name": "astro-elm",
+  "version": "0.0.1",
+  "description": "Use Elm components within Astro",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client.js": "./client.js",
+    "./server.js": "./server.js"
+  },
+  "author": "Robert A Fraser",
+  "license": "MIT",
+  "dependencies": {
+    "vite-plugin-elm": "^2.7.2"
+  }
+}
